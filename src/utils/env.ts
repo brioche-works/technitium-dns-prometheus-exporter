@@ -26,7 +26,7 @@ function get_env_uint(name: string): number {
 }
 
 
-const ENV_VAR_REG = /^TECHNITIUM_API_([0-9A-Z_-]+)_BASE_URL/g;
+const ENV_VAR_REG = /^TECHNITIUM_API_([0-9A-Z_-]+)_BASE_URL/;
 
 function read_servers_from_env(): TechnitiumServer[] {
 	let res: TechnitiumServer[] = []
