@@ -1,4 +1,4 @@
-FROM node:24-alpine
+FROM node:26-alpine
 
 RUN mkdir /opt/exporter /.npm
 WORKDIR /opt/exporter
